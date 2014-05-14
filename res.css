@@ -1,0 +1,148 @@
+* { 
+        margin: 0; 
+        padding: 0; 
+}
+
+body { 
+        font: 16px Sans-Serif; 
+        line-height: 24px; 
+        background: url(textures.jpg); 
+}
+
+.clear { 
+        clear: both; 
+}
+
+#page-wrap { 
+        width: 900px; 
+        margin: 40px auto 40px; 
+}
+
+#pic { 
+        float: right; 
+        margin: -30px 0 0 0; 
+        height: 300px;
+        width:233.2px;
+}
+
+h1 { 
+        margin: 0 0 18px 0; 
+        padding: 0 0 18px 0; 
+        font-size: 46px; 
+        font-weight: bold; 
+        letter-spacing: -2px; 
+        border-bottom: 2px dashed #9E4444; 
+}
+
+h2 { 
+        font-size: 20px; 
+        margin: 0 0 6px 0; 
+        position: relative; 
+        width: 650px;
+}
+
+h2 span { 
+        position: absolute; 
+        bottom: 0; 
+        right: 0; 
+        font-style: italic; 
+        font-family: Georgia; 
+        font-size: 16px; 
+        color: #4E4B4B; 
+        font-weight: normal; 
+
+}
+
+p { 
+        margin: 0 0 16px 0; 
+}
+
+.email { 
+        color: #4D4C4C; 
+        text-decoration: none; 
+        border-bottom: 1px dashed #9E4444; 
+}
+
+.email:hover { 
+        border-bottom-style: solid; 
+        color: black; 
+}
+
+.email:active {
+        color:#9E4444;
+}
+
+ul { 
+        margin: 0 0 32px 17px; 
+}
+
+#exp {
+        height:400px;
+}
+
+#skills {
+        height:100px;
+}
+
+#objective { 
+        width: 500px; 
+        float: left; 
+}
+
+#objective p { 
+        font-family: Georgia; 
+        font-style: italic; color: #666; 
+        
+}
+
+dt { 
+        font-style: italic; 
+        /*font-weight: bold; */
+        font-size: 18px; 
+        text-align: right; 
+        padding: 0 26px 0 0; 
+        float: left; 
+        width: 150px; 
+        height: 100px; 
+        border-right: 1.5px solid #A75050;  
+}
+
+dd { 
+        width: 600px; 
+        float: left; 
+        margin-left: 20px;
+        
+}
+
+dd.clear { 
+        float: none; 
+        margin: 0; 
+        height: 15px; 
+}
+
+footer {
+        margin-top:10px;
+        border-top:2px dashed #9E4444;
+        padding-top: 30px;
+}
+
+footer img {
+        margin-left:160px;
+        
+}
+
+#twitter {
+        width:100px;
+        height:56px;
+}
+
+#linkedin {
+        width:60px;
+        height:60px;
+}
+#facebook {
+        width:65px;
+        height:65px;
+}
+
+
